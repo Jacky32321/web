@@ -37,12 +37,17 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover:not(.active):not(.here) {
     background-color: #111;
 }
 
 .active {
     background-color: #0099ff;
+}
+
+.here{
+    background-color: white;
+	color:black;
 }
 
 li.right {float: right;}
