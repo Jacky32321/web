@@ -13,6 +13,7 @@ p{
 }
 
 h1{
+	
 	text-align:left;
 	color:white;
 	font-size:100px;
@@ -30,6 +31,7 @@ h2{
 	writing-mode: vertical-lr ;
 }
 h3 a{
+	
 	text-decoration:none;
 }
 
@@ -147,9 +149,15 @@ img{
 	height: 780px;
 }
 
-@media screen and (max-width: 800px){ 
-    ul {position: relative;}
-    li.right, li {float: none;}
-    .Traffic {width:80%;}
-    img {width:100%;}
+@viewport {
+    width: device-width;
+    initial-scale: 1;
+}
+
+@media screen and (max-width: 767px){
+	 ul {width:5%;}
+	
+}
+@media screen and (min-width: 768px){
+    
 }

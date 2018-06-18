@@ -105,9 +105,14 @@ li.right {float: right;}
 	clear-fix:right;
 }
  
-@media screen and (max-width: 800px){ 
-    ul {position: relative;}
-    li.right, li {float: none;}
-    .Traffic {width:80%;}
-    img {width:100%;}
+@viewport {
+    width: device-width;
+    initial-scale: 1;
+}
+
+@media screen and (max-width: 767px){
+	 ul {width:10%;}
+}
+@media screen and (min-width: 768px){
+    
 }

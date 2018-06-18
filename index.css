@@ -62,5 +62,17 @@ li a:hover:not(.active) {
 .active {
     background-color: #0066cc;
 }
+
+@viewport {
+    width: device-width;
+    initial-scale: 1;
+}
+
+@media screen and (max-width: 767px){
+	 ul {width:10%;}
+}
+@media screen and (min-width: 768px){
+    
+}
  
  

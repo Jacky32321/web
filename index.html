@@ -11,12 +11,12 @@
    <body>
 			
 		<ul>
-  			<li><a class="active" href="./index.html">新生懶人包</a></li>
-			<li><a href="./Food/Food.html">飲食資訊</a></li>
-			<li><a href="./Traffic/Traffic.html">交通資訊</a></li>
-  			<li><a href="./Graduate/Graduate.html">畢業門檻</a></li>
-  			<li><a href="./Source/Source.html">學校資源</a></li>
-  			<li><a href="#about">住宿資訊</a></li>
+  			<li><a id = "0" class="active" href="./index.html">新生懶人包</a></li>
+			<li><a id = "1" href="./Food/Food.html">飲食資訊</a></li>
+			<li><a id = "2" href="./Traffic/Traffic.html">交通資訊</a></li>
+  			<li><a id = "3" href="./Graduate/Graduate.html">畢業門檻</a></li>
+  			<li><a id = "4" href="./Source/Source.html">學校資源</a></li>
+  			<li><a id = "5" href="#about">住宿資訊</a></li>
   			<li style="float:right"><a class="active" href="./Introduce/Introduce.html">About</a></li>
 		</ul>
 
@@ -35,6 +35,25 @@
 					</tr>
 				</table>
 		</div>
-   
    </body>
+   <script>
+	if($(window).width() < 767)
+	{
+		$(".right").html("介紹");	
+		$("#0").html("首頁");
+		$("#1").html("食物");
+		$("#2").html("交通");
+		$("#3").html("畢業");
+		$("#4").html("資源");
+		$("#5").html("住宿");
+	} else {
+		$(".right").html("About");	
+		$("#0").html("新生懶人包");
+		$("#1").html("飲食資訊");
+		$("#2").html("交通資訊");
+		$("#3").html("畢業門檻");
+		$("#4").html("學校資源");
+		$("#5").html("住宿資訊");
+	}
+   </script>
 </html>
