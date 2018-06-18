@@ -10,7 +10,8 @@ body {
 div {margin-bottom:50px;}
 
 p{
-	margin-left:150px;
+	margin-left:200px;
+	line-height:20px;
 }
 
 h1{
@@ -22,7 +23,7 @@ h1{
 }
 
 h2{
-	font-size:50px;
+	font-size:70px;
 	float:left;
 	margin-left:10px;
 	-webkit-writing-mode: vertical-lr;
@@ -30,10 +31,11 @@ h2{
 }
 
 h3{
+	font-size:30px;
 	background: none repeat scroll 0% 0% rgba(0,0,0,0.3);
 	text-align:center;
 	color: #FFD101;
-	margin-left:120px;
+	margin-left:170px;
 }
 
 ul {
@@ -60,7 +62,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover:not(.active):not(.here) {
     background-color: #111;
 }
 
@@ -68,6 +70,11 @@ li.right {float: right;}
 
 .active {
     background-color: #0099ff;
+}
+
+.here{
+    background-color: white;
+	color:black;
 }
 
 .Traffic{
@@ -82,8 +89,9 @@ li.right {float: right;}
 .Content{
 	font-size:20px;
     text-align: left;
-    border:3px #F0CF61 solid;
-	background: none repeat scroll 0% 0% rgba(400,500,300,0.3);
+    border:3px #EF3E4A solid;
+	box-shadow:15px 15px 6px rgba(0,0,0,0.5);
+	background: none repeat scroll 0% 0% rgba(400,500,300,0.6);
     width: 100%;
     margin-bottom: 50px;
     padding: 20px;

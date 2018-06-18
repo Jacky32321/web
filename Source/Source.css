@@ -1,0 +1,111 @@
+body {
+	background-image: url(IMG_3378.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment:fixed; 
+	margin:0;
+}
+
+div {   margin-top: 15px;
+        float:left;
+}
+
+
+/*navbar*/
+ul {
+	  font-family:"微軟正黑體";
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #0099ff;
+}
+
+li.right {float: right;}
+
+/*card*/
+
+.card {
+  margin: 20px; 
+  width: 250px;
+  height: 700px;
+
+  color: #fff;
+
+  positon: relative;
+  float:left;
+
+}
+.front {
+  background-color: rgb(0,0,0,0.3);
+  border-radius : 10px;
+
+  width: 250px;
+  height: 700px;
+  
+  box-shadow:5px 5px 6px black;
+}
+
+
+body{overflow-y:hidden;}/*隱藏卷軸*/
+
+h2,p{
+    text-align: left
+    font-family: Microsoft JhengHei;
+    margin: 20px;
+
+}
+p{
+  font-size: 20px; 
+}
+
+h2{
+  font-size: 24px;
+}
+/*RDM*/
+@media screen and (max-width: 800px){ 
+    ul {position: relative;}
+    li.right,li {float: none;}
+    body{overflow-y:auto ;}
+}
+
+/*icon細節編輯*/
+.icon{
+    width:200px; 
+    height: 200px;
+    border-radius:50%;
+    object-fit: cover;
+    margin:30px;
+    transition: all 0.3s ease;
+}
+.icon:hover{
+  transform:rotate(16.4deg); 
+  -moz-transform:rotate(16.4deg);
+  -webkit-transform:rotate(16.4deg);
+  -o-transform:rotate(16.4deg);
+  -ms-transform:rotate(16.4deg);
+}
