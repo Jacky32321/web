@@ -65,7 +65,6 @@ li a:hover:not(.active) {
 }
 
 .card {
-  margin: 20px; 
   width: 300px;
   height: 700px;
 
