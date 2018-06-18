@@ -59,6 +59,8 @@ li.right {float: right;}
   width: 300px;
   height: 700px;
 
+  font-family:"微軟正黑體";
+
   color: #fff;
   transition: all 0.6s ease;
 
@@ -66,10 +68,11 @@ li.right {float: right;}
   transform-style: preserve-3d;
   
   positon: relative;
+  float:left;
 
 }
 .front , .back {
-  background-color: rgb(0,0,0,0.3);
+  background-color: rgb(0,0,0,0.5);
   border-radius : 10px;
   position: absolute;
   top: 0;
@@ -95,8 +98,6 @@ li.right {float: right;}
   transform: rotateY(180deg);
 }
 
-body{overflow-y:hidden;}/*隱藏卷軸*/
-
 h2,p{
     text-align: left
     font-family: Microsoft JhengHei;
@@ -105,13 +106,10 @@ h2,p{
 }
 
 /*RDM*/
-@media screen and (max-width: 1200px){ 
+@media screen and (max-width: 800px){ 
     ul {position: relative;}
     li.right,li {float: none;}
     body{overflow-y:auto ;}
-	.div1{width:0%;}
-	.div2{width:100%;}
-	.div3{width:0%;}
 }
 
 /*個人介紹細節編輯*/

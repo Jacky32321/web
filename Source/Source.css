@@ -14,7 +14,7 @@ div {   margin-top: 15px;
 
 /*navbar*/
 ul {
-	  font-family:"微軟正黑體";
+	font-family:"微軟正黑體";
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -46,7 +46,7 @@ li a:hover:not(.active):not(.here) {
 }
 
 .here{
-    background-color: white;
+    background-color: #E3E3E3;
 	color:black;
 }
 
@@ -55,8 +55,8 @@ li.right {float: right;}
 /*card*/
 
 .card {
-  margin: 20px; 
-  width: 250px;
+  margin: 5%; 
+  width: 95%;
   height: 700px;
 
   color: #fff;
@@ -69,18 +69,16 @@ li.right {float: right;}
   background-color: rgb(0,0,0,0.3);
   border-radius : 10px;
 
-  width: 250px;
+  width: 95%;
   height: 700px;
   
   box-shadow:5px 5px 6px black;
 }
 
 
-body{overflow-y:hidden;}/*隱藏卷軸*/
-
 h2,p{
-    text-align: left
-    font-family: Microsoft JhengHei;
+    text-align: left;
+    font-family:"Microsoft JhengHei";
     margin: 20px;
 
 }
@@ -100,11 +98,13 @@ h2{
 
 /*icon細節編輯*/
 .icon{
-    width:200px; 
-    height: 200px;
+    width:96%; 
+    /*height: 80%;*/
     border-radius:50%;
     object-fit: cover;
-    margin:30px;
+    margin:4%;
+	margin-top:6%;
+	
     transition: all 0.3s ease;
 }
 .icon:hover{

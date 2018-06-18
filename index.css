@@ -25,12 +25,14 @@ th {
 
 th:hover{
 	background-color:#fdff3cb8; 
+	border-radius:10px;
 }
 
 
 body {margin:0;}
 
 ul {
+	font-family:"微軟正黑體";
     list-style-type: none;
     margin: 0;
     padding: 0;
