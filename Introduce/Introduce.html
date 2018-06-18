@@ -2,6 +2,7 @@
 
 <html>
    <head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" >
 		<title>新生懶人包介紹</title>
 		<link rel = "stylesheet" type = "text/css" href = "Introduce.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -10,20 +11,19 @@
    <body>
 		<div>
 			<ul>
-				<li><a class="active" href="../index.html">新生懶人包</a></li>
-				<li><a href="../Food/Food.html">飲食資訊</a></li>
-				<li><a href="../Traffic/Traffic.html">交通資訊</a></li>
-				<li><a href="../Graduate/Graduate.html">畢業門檻</a></li>
-				<li><a href="../Source/Source.html">學校資源</a></li>
-				<li><a href="#about">住的資訊</a></li>
-				<li class="right"><a class="active" href="../Introduce/Introduce.html">About</a></li>
+				<li><a id = "0" class="active" href="../index.html">新生懶人包</a></li>
+				<li><a id = "1" href="../Food/Food.html">飲食資訊</a></li>
+				<li><a id = "2" href="../Traffic/Traffic.html">交通資訊</a></li>
+				<li><a id = "3" href="../Graduate/Graduate.html">畢業門檻</a></li>
+				<li><a id = "4" href="../Source/Source.html">學校資源</a></li>
+				<li><a id = "5" href="#about">住宿資訊</a></li>
+				<li><a  class="active right" href="../Introduce/Introduce.html">About</a></li>
 			</ul>
 		</div>
-
-		<div class = "div1" style="width: 25%"></div>
-
-		<div class = "div2" style="width: 60%">
 		
+		<div class = "div1" style="width: 25%"></div>
+		
+		<div class = "div2" style="width: 60%">
 			<div class="card-container">
 	  			<div class="card">
 	    			<div class="front">
@@ -63,12 +63,11 @@
 	      					<img src="climping.jpg" id="cheng">
 	      					厭世大學生一枚,因為因為擔心岩壁,所以才開始研究畢業學分計算,順手整理了一下新生懶人包。
 	      					<br>（其實是想不到期末專題要寫什麼）
-
 	      				</p>
 	    			</div>
 	  			</div>  
 			</div>
-
+			
 			<div class="card-container">
 	  			<div class="card">
 	    			<div class="front">
@@ -99,10 +98,28 @@
 	    			</div>
 	  			</div>  
 			</div>
-		
 		</div>
 
 		<div class = "div3" style="width: 20%"></div>
-
    </body>
+   <script>
+	if($(window).width() < 767)
+	{
+		$(".right").html("Ｉ");	
+		$("#0").html("Ｈ");
+		$("#1").html("食");
+		$("#2").html("行");
+		$("#3").html("畢");
+		$("#4").html("源");
+		$("#5").html("住");
+	} else {
+		$(".right").html("About");	
+		$("#0").html("新生懶人包");
+		$("#1").html("飲食資訊");
+		$("#2").html("交通資訊");
+		$("#3").html("畢業門檻");
+		$("#4").html("學校資源");
+		$("#5").html("住宿資訊");
+	}
+   </script>
 </html>

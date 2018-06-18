@@ -37,15 +37,19 @@ li a {
     text-decoration: none;
 }
 
+li .img {
+	width:10px;
+}
+
 li a:hover:not(.active) {
     background-color: #111;
 }
 
 .active {
-    background-color: #0099ff;
+    background-color: #0066cc;
 }
 
-li.right {float: right;}
+.right {float: right;}
 
 /*card*/
 .card-container {
@@ -79,11 +83,8 @@ li.right {float: right;}
   left: 0;
   width: 300px;
   height: 700px;
-  
-
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  
   box-shadow:5px 5px 6px black;
 }
 
@@ -106,12 +107,19 @@ h2,p{
 }
 
 /*RDM*/
-@media screen and (max-width: 800px){ 
-    ul {position: relative;}
-    li.right,li {float: none;}
-    body{overflow-y:auto ;}
+
+@viewport {
+    width: device-width;
+    initial-scale: 1;
 }
 
+@media screen and (max-width: 767px){
+	 ul {width:10%;}
+	 div{margin-top:1%;}
+}
+@media screen and (min-width: 768px){
+    
+}
 /*個人介紹細節編輯*/
 #cheng{
     width:200px; 

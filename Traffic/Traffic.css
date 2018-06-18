@@ -69,7 +69,7 @@ li a:hover:not(.active):not(.here) {
 li.right {float: right;}
 
 .active {
-    background-color: #0099ff;
+    background-color: #0066cc;
 }
 
 .here{

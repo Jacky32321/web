@@ -67,7 +67,7 @@ li a:hover:not(.active):not(.here) {
 li.right {float: right;}
 
 .active {
-    background-color: #0099ff;
+    background-color: #0066cc;
 }
 
 .here{
@@ -87,7 +87,7 @@ li.right {float: right;}
 .Content{
 	font-size:20px;
     text-align: left;
-    border:3px #F0CF61 solid;
+    border:3px #00B28B solid;
 	background: none repeat scroll 0% 0% rgba(400,500,300,0.6);
     width: 100%;
     margin-bottom: 50px;
