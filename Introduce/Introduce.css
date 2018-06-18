@@ -37,10 +37,6 @@ li a {
     text-decoration: none;
 }
 
-li .img {
-	width:10px;
-}
-
 li a:hover:not(.active) {
     background-color: #111;
 }
@@ -114,12 +110,14 @@ h2,p{
 }
 
 @media screen and (max-width: 767px){
+	 .card {margin: 1%;}
 	 ul {width:10%;}
 	 div{margin-top:1%;}
 }
 @media screen and (min-width: 768px){
     
 }
+
 /*個人介紹細節編輯*/
 #cheng{
     width:200px; 
