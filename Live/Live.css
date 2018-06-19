@@ -65,7 +65,10 @@ img{
 	color:white; 
 	font-size: 20px; 
 	margin-left:25%;
-	background: none repeat scroll 0% 0% #006699;
+	margin-bottom:10%;
+	background: none repeat scroll 0% 0% rgba(0,0,0,0.3);
+	border-radius : 10px;
+	box-shadow:5px 5px 6px black;
 	width:50%;
 }
 
@@ -80,24 +83,31 @@ img{
 	 li{height:14.4%;}
 	 li a{
 		 padding:70% 7px;
-		 text-align:center
 	 }
 	 img{
-		 margin-left:13%;
+		 margin-left:23%;
 		 margin-bottom:5%;
 		 width:100%;
 	 }
 	 .content{
 		 margin:1%;
-		 margin-left:15%;
+		 margin-left:13%;
 		 width:80%;
 		 background-color:none;
 	 }
 	 .Live{
-		 width:90%;
+		 width:70%;
 		 margin-left:1%;
 	 }
 	 p {margin:5%;}
+	 body {
+	background-image: url(../Background.JPG);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment:fixed; 
+	margin:0;
+}
 }
 @media screen and (min-width: 768px){
     
