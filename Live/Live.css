@@ -54,7 +54,7 @@ li a:hover:not(.active):not(.here) {
 
 img{
 	width:100%; 
-	margin-left:40%;
+	display:block;
 	margin-top:7%;
 }
 
@@ -85,9 +85,9 @@ img{
 		 padding:70% 7px;
 	 }
 	 img{
-		 margin-left:23%;
+		 margin-left:11%;
 		 margin-bottom:5%;
-		 width:100%;
+		 width:89%;
 	 }
 	 .content{
 		 margin:1%;
