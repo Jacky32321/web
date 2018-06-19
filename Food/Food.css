@@ -175,26 +175,37 @@ img{
 		 font-size:20px;
 		 margin-left:1%;
 	 }
+	 
+	 h3 a{color:red;}
+	 
 	 .Food{
 		 width:70%;
 		 margin-left:15%;
 		 margin-right:15%;
 	 }
 	 .Content1{
+		  color:white;
 		 font-size:15px;
 		 height:100%;
+		 background: none repeat scroll 0% 0% rgba(0,0,0,0.2);
 	 }
 	 .Content2{
+		  color:white;
 		 font-size:15px;
 		 height:100%;
+		 background: none repeat scroll 0% 0% rgba(0,0,0,0.3);
 	 }
 	 .Content3{
+		 color:white;
 		 font-size:15px;
 		 height:100%;
+		 background: none repeat scroll 0% 0% rgba(0,0,0,0.4);
 	 }
 	 .Content4{
+		 color:white;
 		 font-size:15px;
 		 height:100%;
+		 background: none repeat scroll 0% 0% rgba(0,0,0,0.5);
 	 }
 	 .detailbox{
 		 float:none;
