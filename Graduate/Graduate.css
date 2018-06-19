@@ -7,35 +7,6 @@ body {
 	margin:0;
 }
 
-div {margin-bottom:50px;}
-
-p.tab{
-	margin-left:200px;
-	line-height:20px;
-}
-
-h1{
-	text-align:left;
-	color:white;
-	font-size:100px;
-	margin-top:60px;
-	margin-bottom:10px;
-}
-
-h2{
-	font-size:70px;
-	float:left;
-	margin-left:10px;
-	-webkit-writing-mode: vertical-lr;
-	writing-mode: vertical-lr ;
-}
-
-h3{
-	font-size:30px;
-	color:#E54B4B;
-	margin-left:170px;
-}
-
 ul {
 	font-family:"微軟正黑體";
     list-style-type: none;
@@ -73,6 +44,38 @@ li a:hover:not(.active):not(.here) {
 	color:black;
 }
 
+p.tab{
+	margin-left:200px;
+	line-height:20px;
+}
+
+h1{
+	text-align:left;
+	color:white;
+	font-size:100px;
+	margin-top:5%;
+	margin-bottom:2%;
+}
+
+h2{
+	font-size:70px;
+	float:left;
+	margin-left:1%;
+	-webkit-writing-mode: vertical-lr;
+	writing-mode: vertical-lr;
+}
+
+h3{
+	font-size:30px;
+	color:#E54B4B;
+	margin-left:170px;
+}
+
+.change{
+	background-color:rgba(0,0,0,0.5); 
+	color:white;
+}
+
 .Graduate{
 	font-weight:bold;
 	font-family: helvetica, fantasy, "微軟正黑體";
@@ -83,7 +86,6 @@ li a:hover:not(.active):not(.here) {
 }
 
 .Content{
-	font-size:20px;
     text-align: left;
     border:3px #00B28B solid;
 	background: none repeat scroll 0% 0% rgba(400,500,300,0.6);
@@ -96,6 +98,7 @@ li a:hover:not(.active):not(.here) {
 .dropdown {
     position: relative;
     display: inline-block;
+	margin-bottom: 0px;
 }
 
 .dropdown-content {
@@ -122,10 +125,41 @@ li a:hover:not(.active):not(.here) {
 }
 
 @media screen and (max-width: 767px){
-	 ul {width:5%;
-		 height:100%;}
+	 ul {width:10%;
+		 height:97%;}
+	 li{height:14.4%;}
 	 li a{
-		 padding:55% 7px;}
+		 padding:70% 7px;}
+	 .Graduate{
+		 width:70%;
+		 margin-left:12%;
+	 }
+	 h1{
+		 font-size:50px;
+		 margin-left:6%;
+		 text-align:left;
+	 }
+	 h2{
+		 font-size:30px;
+		 float:none;
+		 margin:0;
+		 writing-mode: horizontal-tb;
+		 writing-mode: horizontal-bt;
+	 }
+	 h3{
+		 font-size:20px;
+		 margin-left:1%;
+	 }
+	 p{
+		font-size:15px;
+		margin-left:0;
+	 }
+	 p.tab{
+		 margin-left:10%;
+	 }
+	 .dropdown-content {
+		 width:90%;
+	 }
 }
 @media screen and (min-width: 768px){
     

@@ -55,14 +55,13 @@ h2{
 	float:left;
 	margin-left:1%;
 	-webkit-writing-mode: vertical-lr;
-	writing-mode: vertical-lr ;
+	writing-mode: vertical-lr;
 }
 
 h3{
 	font-size:30px;
-	background: none repeat scroll 0% 0% rgba(0,0,0,0.3);
 	text-align:left;
-	color: #FFD101;
+	color: #055A5B;
 	margin-left:170px;
 }
 
@@ -109,7 +108,7 @@ img{
 
 @media screen and (max-width: 767px){
 	 ul {width:10%;
-		 height:100%;}
+		 height:97%;}
 	 li{height:14.4%;}
 	 li a{
 		 padding:70% 7px;}
