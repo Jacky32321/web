@@ -180,22 +180,18 @@ img{
 	 }
 	 .Content1{
 		 font-size:15px;
-		 height:0px;
 		 height:100%;
 	 }
 	 .Content2{
 		 font-size:15px;
-		 height:0px;
 		 height:100%;
 	 }
 	 .Content3{
 		 font-size:15px;
-		 height:0px;
 		 height:100%;
 	 }
 	 .Content4{
 		 font-size:15px;
-		 height:0px;
 		 height:100%;
 	 }
 	 .detailbox{
@@ -214,7 +210,7 @@ img{
 		height:150px;
 	 }
 	 body {
-		
+		background-size:50% 14.4%;
 	 }
 }
 @media screen and (min-width: 768px){
