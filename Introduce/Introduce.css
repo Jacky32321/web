@@ -126,8 +126,9 @@ h2,p{
 	 div{margin-top:1%;}
 	 p{margin-bottom:5%;}
 	 .div1{width:15%;}
-	 .div2{width:85%;}
-	 .div3{width:0%;}
+	 .div2{width:70%;
+	 margin-left:0%;}
+	 .div3{width:15%;}
 }
 @media screen and (min-width: 768px){
     
