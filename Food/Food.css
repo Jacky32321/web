@@ -210,7 +210,7 @@ img{
 		height:150px;
 	 }
 	 body {
-		background-size:50% 14.4%;
+		background-attachment:none;
 	 }
 }
 @media screen and (min-width: 768px){
