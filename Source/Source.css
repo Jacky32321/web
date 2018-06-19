@@ -116,8 +116,13 @@ h2{
 	 }
 	 .front{width:100%;}
 	 body {
-		 background-size:device-width device-height;
-	 }
+	background-image: url(../Background.JPG);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-attachment:fixed; 
+	margin:0;
+}
 }
 @media screen and (min-width: 768px){
     
