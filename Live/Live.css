@@ -1,5 +1,6 @@
 body {
-	background-image: url(../Background.JPG);
+	/*background-color: #006699;*/
+    background-image: url(../Background.JPG);
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
@@ -9,13 +10,13 @@ body {
 
 div {margin-bottom:50px;}
 
-p{
+p.tab{
 	margin-left:200px;
 	line-height:20px;
 }
 
 h1{
-	text-align:right;
+	text-align:left;
 	color:white;
 	font-size:100px;
 	margin-top:60px;
@@ -32,14 +33,12 @@ h2{
 
 h3{
 	font-size:30px;
-	background: none repeat scroll 0% 0% rgba(0,0,0,0.3);
-	text-align:center;
-	color: #FFD101;
+	color:#E54B4B;
 	margin-left:170px;
 }
 
 ul {
-	font-family:"微軟正黑體";
+	font-family:"微軟正黑體",Helvetica;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -49,7 +48,6 @@ ul {
     top: 0;
     width: 100%;
 }
-
 
 li {
     float: left;
@@ -90,12 +88,12 @@ li.right {float: right;}
 .Content{
 	font-size:20px;
     text-align: left;
-    border:3px #EF3E4A solid;
-	box-shadow:15px 15px 6px rgba(0,0,0,0.5);
+    border:3px #F0CF61 solid;
 	background: none repeat scroll 0% 0% rgba(400,500,300,0.6);
     width: 100%;
     margin-bottom: 50px;
     padding: 20px;
+	box-shadow:15px 15px 6px rgba(0,0,0,0.5);
 }
 
 #route{
@@ -106,13 +104,44 @@ li.right {float: right;}
 	clear-fix:right;
 }
  
+@media screen and (max-width: 800px){ 
+    ul {position: relative;}
+    li.right, li {float: none;}
+    .Traffic {width:80%;}
+    img {width:100%;}
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.8);
+ 	width:650px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    float: left;
+    border-style: solid;
+    border-color: #F0CF61;
+    color:white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
 @viewport {
     width: device-width;
     initial-scale: 1;
 }
 
 @media screen and (max-width: 767px){
-	 ul {width:5%;}
+	 ul {width:10%;}
 }
 @media screen and (min-width: 768px){
     

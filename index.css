@@ -69,7 +69,7 @@ li a:hover:not(.active) {
 }
 
 @media screen and (max-width: 767px){
-	 ul {width:10%;}
+	 ul {width:0%;}
 }
 @media screen and (min-width: 768px){
     
