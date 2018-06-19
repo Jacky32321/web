@@ -152,9 +152,6 @@ img{
 }
 
 @media screen and (max-width: 767px){
-	 html{
-		 height:100%;
-	 }
 	 ul {width:10%;
 		 height:97%;}
 	 li{height:14.4%;}
@@ -212,13 +209,11 @@ img{
 		height:150px;
 	 }
 	 body {
-	background-image: url(../Background.JPG);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-attachment:fixed; 
-	margin:0;
-}
+		height:device-height;
+	 }
+	 html {
+		height:device-height;
+	 }
 }
 @media screen and (min-width: 768px){
     
