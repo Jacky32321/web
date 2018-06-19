@@ -67,19 +67,16 @@ li:hover:not(.active) {
   width: 300px;
   height: 750px;
   font-family:"微軟正黑體";
-
   color: #fff;
   transition: all 0.6s ease;
-
   -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
-  
   positon: relative;
   float:left;
 }
 
 .front , .back {
-  background-color: rgb(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.5);
   border-radius : 10px;
   position: absolute;
   top: 0;
@@ -106,7 +103,6 @@ h2,p{
     text-align: left
     font-family: Microsoft JhengHei;
     margin-left: 5%;
-
 }
 
 /*RDM*/
@@ -126,8 +122,7 @@ h2,p{
 	 div{margin-top:1%;}
 	 p{margin-bottom:5%;}
 	 .div1{width:15%;}
-	 .div2{width:70%;
-	 margin-left:0%;}
+	 .div2{width:70%;}
 	 .div3{width:15%;}
 }
 @media screen and (min-width: 768px){
