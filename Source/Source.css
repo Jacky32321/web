@@ -116,11 +116,7 @@ h2{
 	 }
 	 .front{width:100%;}
 	 body {
-		 margin:0;
-		 padding:0;
-		 background: #000 url(../Background.JPG) center center fixed no-repeat;
-		 -moz-background-size: cover;
-		 background-size: cover;
+		 height:100%;
 	 }
 }
 @media screen and (min-width: 768px){
