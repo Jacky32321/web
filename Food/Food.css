@@ -7,37 +7,6 @@ body {
 	margin:0;
 }
 
-p{
-	/*margin-left:150px;*/
-	line-height:20px;
-}
-
-h1{
-	text-align:left;
-	color:white;
-	font-size:100px;
-	margin-top:60px;
-	margin-bottom:10px;
-}
-
-h2{
-	width:10%;
-	height: 100%;
-	font-size:70px;
-	float:left;
-	margin-left:10px;
-	-webkit-writing-mode: vertical-lr;
-	writing-mode: vertical-lr ;
-}
-h3 a{
-	text-decoration:none;
-}
-
-h3 a:hover{
-	font-size:30px;
-	transition:all 0.5s ease;
-}
-
 ul {
 	font-family:"微軟正黑體";
     list-style-type: none;
@@ -75,10 +44,42 @@ li a:hover:not(.active):not(.here) {
 	color:black;
 }
 
+p{
+	line-height:20px;
+}
+
+h1{
+	text-align:right;
+	color:white;
+	font-size:100px;
+	margin-top:5%;
+	margin-bottom:2%;
+}
+
+h2{
+	font-size:70px;
+	float:left;
+	margin-left:1%;
+	-webkit-writing-mode: vertical-lr;
+	writing-mode: vertical-lr ;
+}
+
+h3 a{
+	font-size:30px;
+	text-decoration:none;
+}
+
+h3 a:hover{
+	font-size:30px;
+	transition:all 0.5s ease;
+}
+
 img{
 	border-width: 10px;
 	border-style: solid;
 	border-color: white;
+	width:250px;
+	height:200px;
 }
 
 .detailbox{
@@ -151,10 +152,64 @@ img{
 }
 
 @media screen and (max-width: 767px){
-	 ul {width:5%;
+	 ul {width:10%;
 		 height:100%;}
+	 li{height:14.4%;}
 	 li a{
-		 padding:55% 7px;}
+		 padding:70% 7px;}
+	 h1{
+		 font-size:50px;
+		 margin-left:6%;
+		 text-align:left;
+	 }
+	 h2{
+		 font-size:30px;
+		 float:none;
+		 margin:0;
+		 writing-mode: horizontal-tb;
+		 writing-mode: horizontal-bt;
+	 }
+	 h3{
+		 font-size:15px;
+		 margin-left:1%;
+	 }
+	 .Food{
+		 width:70%;
+		 margin-left:12%;
+	 }
+	 .Content1{
+		 font-size:15px;
+		 height:100%;
+	 }
+	 .Content2{
+		 font-size:15px;
+		 height:100%;
+	 }
+	 .Content3{
+		 font-size:15px;
+		 height:100%;
+	 }
+	 .Content4{
+		 font-size:15px;
+		 height:100%;
+	 }
+	 .detailbox{
+		 float:none;
+		 width:100%;
+		 margin-left:0%;
+		 line-height:3%;
+		 height:0%;
+	 }
+	 img{
+		border-width: 0px;
+		border-style: none;
+		border-color: none;
+		width:150px;
+		height:150px;
+	 }
+	 
+	 
+	 
 	
 }
 @media screen and (min-width: 768px){
