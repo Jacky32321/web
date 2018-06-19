@@ -115,6 +115,13 @@ h2{
 		 margin-left:15%;
 	 }
 	 .front{width:100%;}
+	 body {
+		margin:0;
+		padding:0;
+		background: #000 url(../Background.JPG) center center fixed no-repeat;
+		-moz-background-size: cover;
+		background-size: cover;
+	 }
 }
 @media screen and (min-width: 768px){
     
