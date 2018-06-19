@@ -175,22 +175,27 @@ img{
 	 }
 	 .Food{
 		 width:70%;
-		 margin-left:12%;
+		 margin-left:15%;
+		 margin-right:15%;
 	 }
 	 .Content1{
 		 font-size:15px;
+		 height:0px;
 		 height:100%;
 	 }
 	 .Content2{
 		 font-size:15px;
+		 height:0px;
 		 height:100%;
 	 }
 	 .Content3{
 		 font-size:15px;
+		 height:0px;
 		 height:100%;
 	 }
 	 .Content4{
 		 font-size:15px;
+		 height:0px;
 		 height:100%;
 	 }
 	 .detailbox{
@@ -209,10 +214,7 @@ img{
 		height:150px;
 	 }
 	 body {
-		height:device-height;
-	 }
-	 html {
-		height:device-height;
+		
 	 }
 }
 @media screen and (min-width: 768px){
