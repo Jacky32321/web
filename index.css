@@ -6,8 +6,6 @@ body {
 	background-attachment:fixed; 
 }
 
-div {margin-bottom:200px;}
-
 #menu{
 	position:absolute;
     top: 50%;
@@ -70,6 +68,9 @@ li a:hover:not(.active) {
 
 @media screen and (max-width: 767px){
 	 ul {width:0%;}
+	 .lazy{
+		 width:5%;
+	 }
 }
 @media screen and (min-width: 768px){
     
