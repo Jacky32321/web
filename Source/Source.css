@@ -116,7 +116,7 @@ h2{
 	 }
 	 .front{width:100%;}
 	 body {
-		 height:100%;
+		 background-size:device-width device-height;
 	 }
 }
 @media screen and (min-width: 768px){
