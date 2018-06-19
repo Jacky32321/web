@@ -60,6 +60,7 @@ h2{
 	font-size:70px;
 	float:left;
 	margin-left:1%;
+	height:100%;
 	-webkit-writing-mode: vertical-lr;
 	writing-mode: vertical-lr ;
 }
@@ -166,6 +167,7 @@ img{
 		 font-size:30px;
 		 float:none;
 		 margin:0;
+		 height:auto;
 		 writing-mode: horizontal-tb;
 		 writing-mode: horizontal-bt;
 	 }
