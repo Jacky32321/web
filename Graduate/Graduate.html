@@ -10,13 +10,13 @@
    
    <body>
 		<ul>
-			<li><a id = "0" class="active" href="../index.html">新生懶人包</a></li>
+			<li class="active"><a id = "0" href="../index.html">新生懶人包</a></li>
 			<li><a id = "1" href="../Food/Food.html">飲食資訊</a></li>
 			<li><a id = "2" href="../Traffic/Traffic.html">交通資訊</a></li>
-			<li><a id = "3" class="here" href="../Graduate/Graduate.html">畢業門檻</a></li>
+			<li class="here"><a id = "3" href="../Graduate/Graduate.html">畢業門檻</a></li>
 			<li><a id = "4" href="../Source/Source.html">學校資源</a></li>
 			<li><a id = "5" href="../Live/Live.html">>住宿資訊</a></li>
-			<li><a class="active right" href="../Introduce/Introduce.html">About</a></li>
+			<li class="active"><a id = "6" href="../Introduce/Introduce.html">About</a></li>
 		</ul>
 
 		<div class = "Traffic">
@@ -108,24 +108,25 @@
 			</div>
 		</div>
    </body>
+   
    <script>
 	if($(window).width() < 767)
-	{
-		$(".right").html("介紹");	
+	{	
 		$("#0").html("首頁");
 		$("#1").html("食物");
 		$("#2").html("交通");
 		$("#3").html("畢業");
 		$("#4").html("資源");
 		$("#5").html("住宿");
-	} else {
-		$(".right").html("About");	
+		$("#6").html("介紹");
+	} else {	
 		$("#0").html("新生懶人包");
 		$("#1").html("飲食資訊");
 		$("#2").html("交通資訊");
 		$("#3").html("畢業門檻");
 		$("#4").html("學校資源");
 		$("#5").html("住宿資訊");
+		$("#6").html("About");
 	}
    </script>
 </html>

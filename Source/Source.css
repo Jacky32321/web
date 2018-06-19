@@ -40,13 +40,10 @@ li a:hover:not(.active):not(.here) {
     background-color: #0066cc;
 }
 
-.here{
+.here a{
     background-color: #E3E3E3;
 	color:black;
 }
-
-li.right {float: right;}
-
 /*card*/
 
 .card {
@@ -110,6 +107,7 @@ h2{
 @media screen and (max-width: 767px){
 	 ul {width:10%;
 		 height:100%;}
+	 li{height:14.4%;}
 	 li a{
 		 padding:70% 7px;}
 	 .card{

@@ -8,37 +8,23 @@ body {
 	margin:0;
 }
 
-div {margin-bottom:50px;}
-
-p.tab{
-	margin-left:200px;
-	line-height:20px;
+img{
+	width:90%; 
+	margin:5%;
 }
 
-h1{
-	text-align:left;
-	color:white;
-	font-size:100px;
-	margin-top:60px;
-	margin-bottom:10px;
-}
-
-h2{
-	font-size:70px;
-	float:left;
-	margin-left:10px;
-	-webkit-writing-mode: vertical-lr;
-	writing-mode: vertical-lr ;
-}
-
-h3{
-	font-size:30px;
-	color:#E54B4B;
-	margin-left:170px;
+.content{
+	font-family:"微軟正黑體";
+	position: absolute;
+	text-align:center; 
+	color:white; 
+	font-size: 20px; 
+	background-color: #003366;
+	width:100%;
 }
 
 ul {
-	font-family:"微軟正黑體",Helvetica;
+	font-family:"微軟正黑體";
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -65,74 +51,13 @@ li a:hover:not(.active):not(.here) {
     background-color: #111;
 }
 
-li.right {float: right;}
-
 .active {
     background-color: #0066cc;
 }
 
-.here{
+.here a{
     background-color: #E3E3E3;
 	color:black;
-}
-
-.Traffic{
-	font-weight:bold;
-	font-family: helvetica, fantasy, "微軟正黑體";
-	text-align: center;
-	color: #371722;
-	margin:auto;
-	width: 800px;
-}
-
-.Content{
-	font-size:20px;
-    text-align: left;
-    border:3px #F0CF61 solid;
-	background: none repeat scroll 0% 0% rgba(400,500,300,0.6);
-    width: 100%;
-    margin-bottom: 50px;
-    padding: 20px;
-	box-shadow:15px 15px 6px rgba(0,0,0,0.5);
-}
-
-#route{
-	float:right;
-	margin-left:200px;
-	height:150px;
-	width:200px;
-	clear-fix:right;
-}
- 
-@media screen and (max-width: 800px){ 
-    ul {position: relative;}
-    li.right, li {float: none;}
-    .Traffic {width:80%;}
-    img {width:100%;}
-}
-
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgba(0,0,0,0.8);
- 	width:650px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-    float: left;
-    border-style: solid;
-    border-color: #F0CF61;
-    color:white;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
 }
 
 @viewport {
@@ -143,8 +68,19 @@ li.right {float: right;}
 @media screen and (max-width: 767px){
 	 ul {width:10%;
 		 height:100%;}
-	 li a{
-		 padding:70% 7px;}
+	 li{height:14.4%;}
+	 li a{padding:70% 7px;}
+	 img{
+		 margin-left:13%;
+		 width:80%;
+		 height:70%;
+	 }
+	 .content{
+		 position:none;
+		 margin-left:13%;
+		 width:80%;
+	 }
+	 p {margin:5%;}
 }
 @media screen and (min-width: 768px){
     

@@ -37,7 +37,7 @@ h3{
 }
 
 ul {
-	font-family:"微軟正黑體",Helvetica;
+	font-family:"微軟正黑體";
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -64,13 +64,12 @@ li a:hover:not(.active):not(.here) {
     background-color: #111;
 }
 
-li.right {float: right;}
 
 .active {
     background-color: #0066cc;
 }
 
-.here{
+.here a{
     background-color: #E3E3E3;
 	color:black;
 }

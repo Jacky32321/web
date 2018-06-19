@@ -67,13 +67,11 @@ li a:hover:not(.active):not(.here) {
     background-color: #111;
 }
 
-li.right {float: right;}
-
 .active {
     background-color: #0066cc;
 }
 
-.here{
+.here a{
     background-color: #E3E3E3;
 	color:black;
 }
@@ -114,6 +112,7 @@ li.right {float: right;}
 @media screen and (max-width: 767px){
 	 ul {width:5%;
 		 height:100%;}
+		 
 	 li a{
 		 padding:55% 7px;}
 }
