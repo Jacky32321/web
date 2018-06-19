@@ -13,7 +13,6 @@ p{
 }
 
 h1{
-	
 	text-align:left;
 	color:white;
 	font-size:100px;
@@ -31,7 +30,6 @@ h2{
 	writing-mode: vertical-lr ;
 }
 h3 a{
-	
 	text-decoration:none;
 }
 
@@ -155,9 +153,9 @@ img{
 @media screen and (max-width: 767px){
 	 ul {width:5%;
 		 height:100%;}
-		 
 	 li a{
 		 padding:55% 7px;}
+	
 }
 @media screen and (min-width: 768px){
     
