@@ -1,7 +1,3 @@
-html{
-    height:100%;
-}
-
 body {
 	background-image: url(../Background.JPG);
 	background-position: center;
@@ -216,11 +212,7 @@ img{
 		height:150px;
 	 }
 	 body {
-		 margin:0;
-		 padding:0;
-		 background: #000 url(../Background.JPG) center center fixed no-repeat;
-		 -moz-background-size: cover;
-		 background-size: cover;
+		background-size:100% 100%;
 	 }
 }
 @media screen and (min-width: 768px){
