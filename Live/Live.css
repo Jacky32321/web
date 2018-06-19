@@ -68,14 +68,13 @@ li a:hover:not(.active):not(.here) {
 @media screen and (max-width: 767px){
 	 ul {width:10%;
 		 height:100%;}
-	 li{height:14.4%;}
+	 
 	 li a{padding:70% 7px;}
+	 
 	 img{
 		 margin-left:13%;
 		 width:80%;
-		 height:70%;
 	 }
-	 
 	 .content{
 		 position:none;
 		 margin-left:13%;
