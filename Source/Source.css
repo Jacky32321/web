@@ -7,11 +7,6 @@ body {
 	margin:0;
 }
 
-div {  
-    float:left;
-}
-
-
 /*navbar*/
 ul {
 	font-family:"微軟正黑體";
@@ -113,9 +108,15 @@ h2{
 }
 
 @media screen and (max-width: 767px){
-	 ul {width:10%;}
-	 .card{width:70%;
-	 margin-left:15%;}
+	 ul {width:10%;
+		 height:100%;}
+	 li a{
+		 padding:70% 7px;}
+	 .card{
+		 width:70%;
+		 margin-left:15%;
+	 }
+	 .front{width:100%;}
 }
 @media screen and (min-width: 768px){
     

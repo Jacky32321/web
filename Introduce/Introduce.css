@@ -78,8 +78,8 @@ li a:hover:not(.active) {
   
   positon: relative;
   float:left;
-
 }
+
 .front , .back {
   background-color: rgb(0,0,0,0.5);
   border-radius : 10px;
@@ -120,7 +120,10 @@ h2,p{
 
 @media screen and (max-width: 767px){
 	 .card {margin: 0px;}
-	 ul {width:10%;}
+	 ul {width:10%;
+		 height:100%;}
+	 li a{
+		 padding:70% 7px;}
 	 div{margin-top:1%;}
 	 .div1{width:12%;}
 	 .div2{width:80%;}

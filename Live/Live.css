@@ -141,7 +141,10 @@ li.right {float: right;}
 }
 
 @media screen and (max-width: 767px){
-	 ul {width:10%;}
+	 ul {width:10%;
+		 height:100%;}
+	 li a{
+		 padding:70% 7px;}
 }
 @media screen and (min-width: 768px){
     
