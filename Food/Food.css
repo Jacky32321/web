@@ -152,6 +152,9 @@ img{
 }
 
 @media screen and (max-width: 767px){
+	 html{
+		 height:100%;
+	 }
 	 ul {width:10%;
 		 height:97%;}
 	 li{height:14.4%;}
@@ -208,10 +211,6 @@ img{
 		width:150px;
 		height:150px;
 	 }
-	 
-	 
-	 
-	
 }
 @media screen and (min-width: 768px){
     
