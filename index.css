@@ -69,7 +69,10 @@ li a:hover:not(.active) {
 @media screen and (max-width: 767px){
 	 ul {width:0%;}
 	 .lazy{
-		 width:5%;
+		 display:none;
+	 }
+	 #menu{
+		 margin-top:-135px;
 	 }
 }
 @media screen and (min-width: 768px){

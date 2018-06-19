@@ -115,14 +115,6 @@ h2{
 		 margin-left:15%;
 	 }
 	 .front{width:100%;}
-	 body {
-	background-image: url(../Background.JPG);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-attachment:fixed; 
-	margin:0;
-}
 }
 @media screen and (min-width: 768px){
     
