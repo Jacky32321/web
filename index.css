@@ -74,6 +74,9 @@ li a:hover:not(.active) {
 	 #menu{
 		 margin-top:-135px;
 	 }
+	 body {
+		background-image: url(sky.png);
+	　}
 }
 @media screen and (min-width: 768px){
     
