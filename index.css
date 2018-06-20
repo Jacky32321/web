@@ -1,9 +1,7 @@
-body {
-	background-image: url(Background.JPG);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: 100% 100%;
-	background-attachment:fixed; 
+.Background{
+	position:fixed;
+	width:100%;
+	height:100%;
 }
 
 #menu{
@@ -74,12 +72,6 @@ li a:hover:not(.active) {
 	 #menu{
 		 margin-top:-135px;
 	 }
-	 body {
-		background-image: url(sky.png);
-	　}
-}
-@media screen and (min-width: 768px){
-    
 }
  
 
