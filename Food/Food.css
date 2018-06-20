@@ -71,7 +71,7 @@ h3 a{
 }
 
 h3 a:hover{
-	font-size:30px;
+	font-size:40px;
 	transition:all 0.5s ease;
 }
 
@@ -164,7 +164,7 @@ img{
 		 text-align:left;
 	 }
 	 h2{
-		 font-size:30px;
+		 font-size:40px;
 		 float:none;
 		 margin:0;
 		 height:auto;
@@ -175,8 +175,7 @@ img{
 		 font-size:20px;
 		 margin-left:1%;
 	 }
-	 
-	 h3 a{color:red;}
+	 h3 a{color:#FB9B2A;}
 	 
 	 .Food{
 		 width:70%;
