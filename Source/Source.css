@@ -47,6 +47,7 @@ li a:hover:not(.active):not(.here) {
 /*card*/
 
 .card {
+  font-family: helvetica, fantasy, "微軟正黑體";
   background-color: rgba(0,0,0,0.3);
   border-radius : 10px;
   box-shadow:5px 5px 6px black;
@@ -107,7 +108,7 @@ h2{
 @media screen and (max-width: 767px){
 	 ul {width:10%;
 		 height:97%;}
-	 li{height:14.4%;}
+	 li{height:13.8%;}
 	 li a{
 		 padding:70% 7px;}
 	 .card{

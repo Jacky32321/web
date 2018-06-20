@@ -128,12 +128,13 @@ h3{
 @media screen and (max-width: 767px){
 	 ul {width:10%;
 		 height:97%;}
-	 li{height:14.4%;}
+	 li{height:13.8%;}
 	 li a{
 		 padding:70% 7px;}
 	 .Graduate{
 		 width:70%;
 		 margin-left:12%;
+		 margin-right:13%;
 	 }
 	 h1{
 		 font-size:50px;
